@@ -6,9 +6,7 @@
 language: cpp
 
 # setting compilers, do 2 separate sub-builds for gcc and clang
-compiler:
-  - gcc
-  - clang
+compiler: gcc
 
 # script to run after build (run tests, etc.)
 script: make all test
